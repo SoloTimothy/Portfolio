@@ -12,11 +12,11 @@ gsap.registerPlugin(useGSAP)
   `scala` è OPZIONALE: un numero per correggere immagini con margini diversi.
 */
 const stack = [
-  { titolo: 'Unity', icona: 'public/Icon/Uniti icon.webp', scala: 1.6 },
-  { titolo: 'C#', icona: 'public/Icon/csharp.png', scala: 2.5 },
-  { titolo: 'Blender', icona: 'public/Icon/Blneder-Icon.png', scala: 1.2 },
-  { titolo: 'Git & GitHub', icona: 'public/Icon/GitHub.webp', scala: 1.2 },
-  { titolo: 'Tech Art & Visual FX', icona: 'public/Icon/FX.png', scala: 1.8 },
+  { titolo: 'Unity', icona: '/Icon/Uniti icon.webp', scala: 1.6 },
+  { titolo: 'C#', icona: '/Icon/csharp.png', scala: 2.5 },
+  { titolo: 'Blender', icona: '/Icon/Blneder-Icon.png', scala: 1.2 },
+  { titolo: 'Git & GitHub', icona: '/Icon/GitHub.webp', scala: 1.2 },
+  { titolo: 'Tech Art & Visual FX', icona: '/Icon/FX.png', scala: 1.8 },
 ]
 
 /*

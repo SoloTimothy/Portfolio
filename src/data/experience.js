@@ -28,7 +28,7 @@ export const experience = [
   descrizione:
     'Sviluppo di progetti 3D indipendenti in Unity: gameplay, tech art e pipeline di produzione, dalla prototipazione alla build.',
   badge: {
-    immagine: 'public/favicon.svg',
+    immagine: '/favicon.svg',
     link: null,
     scala: 0.7, // scala l'immagine del badge (1 = dimensione originale)
   },
@@ -40,7 +40,7 @@ export const experience = [
   descrizione:
     'Percorso strutturato su quattro materie: Design, Tech Artist, 2D e Programmazione — dalle basi del game design agli shader, dalla pixel art al C#.',
   badge: {
-    immagine: 'public/SD-FORMAZIONE.png',
+    immagine: '/SD-FORMAZIONE.png',
     link: null,
   },
 },
@@ -51,8 +51,8 @@ export const experience = [
   descrizione:
     'Certificazione base Unity: fondamenta dell\'editor, gestione asset, e primi passi in un percorso di certificazione strutturato.',
   badge: {
-    immagine: 'public/Unity Essentials.png', // scarica l'immagine del badge da Credly una volta ottenuto
-    link: 'https://www.credly.com/badges/il-tuo-id-badge', // il link di verifica pubblico del TUO badge specifico
+    immagine: '/Unity Essentials.png', // scarica l'immagine del badge da Credly una volta ottenuto
+    link: 'https://www.credly.com/badges/02b6efb5-7b5a-4e3d-ab02-d90075c57327/public_url', // il link di verifica pubblico del TUO badge specifico
   },
 },
 {
@@ -62,7 +62,7 @@ export const experience = [
   descrizione:
     'Percorso formale in sviluppo web: HTML/CSS/JS, logica di programmazione e basi che ho poi portato con me passando al game dev.',
   badge: {
-    immagine: 'public/Web Design.png',
+    immagine: '/Web Design.png',
     link: 'https://drive.google.com/file/d/1MhzimhVo1jFCR_E6AZr59OqrmoGaR97y/view',
     scala: 0.9,
   },

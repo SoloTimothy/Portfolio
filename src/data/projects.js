@@ -31,7 +31,7 @@ export const projects = [
   },
   {
     titolo: 'Stanza Isometrica',
-    video: 'public/Recordings/IsometricVideo.mp4',
+    video: '/Recordings/IsometricVideo.mp4',
     immagine: null,
     descrizione: 'Esercizio di lighting e composizione: illuminazione realtime/baked, reflection probe e atmosfera notturna.',
     link: null,
