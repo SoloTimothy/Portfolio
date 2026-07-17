@@ -1,0 +1,38 @@
+/* Importa tutte le utility di Tailwind CSS (versione 4, via plugin Vite) */
+@import 'tailwindcss';
+
+/*
+  Stili globali di base.
+  Palette: nero/bianco — usiamo i grigi "neutral" di Tailwind
+  (neutral-950 per lo sfondo, neutral-100 per il testo).
+*/
+@layer base {
+  html {
+    /* Scroll fluido quando si clicca un link di navigazione (#progetti, ecc.) */
+    scroll-behavior: smooth;
+  }
+
+  /* Se l'utente preferisce ridurre le animazioni, niente scroll fluido */
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    @apply bg-neutral-950 text-neutral-100 antialiased;
+  }
+
+  /*
+    Focus da tastiera SEMPRE visibile:
+    chi naviga con Tab vede un anello bianco attorno all'elemento attivo.
+  */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-white rounded-sm;
+  }
+
+  /* Testo selezionato: invertiamo i colori (bianco su nero -> nero su bianco) */
+  ::selection {
+    @apply bg-white text-neutral-950;
+  }
+}
