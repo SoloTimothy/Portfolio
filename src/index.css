@@ -23,6 +23,11 @@
 
   body {
     @apply bg-neutral-950 text-neutral-100 antialiased;
+    overflow-x: hidden;
+  }
+
+  #root {
+    overflow-x: hidden;
   }
 
   /*
