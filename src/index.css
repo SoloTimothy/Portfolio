@@ -10,6 +10,8 @@
   html {
     /* Scroll fluido quando si clicca un link di navigazione (#progetti, ecc.) */
     scroll-behavior: smooth;
+    /* Impedisce lo scroll orizzontale su mobile, indipendentemente dalla causa */
+    overflow-x: hidden;
   }
 
   /* Se l'utente preferisce ridurre le animazioni, niente scroll fluido */
